@@ -9,6 +9,6 @@ var num_orz_wedn = 2
 var num_vetryanka_mon = 0
 var num_vetryanka_tue = 1
 var num_vetryanka_wedn = 4
-var num_orz_week=num_orz_mon+num_orz_tue+num_orz_wedn
-var num_vetryanka_week=num_vetryanka_mon+num_vetryanka_tue+num_vetryanka_wedn
-num_vetryanka_mon+num_vetryanka_tue+num_vetryanka_wedn + " vetryanka"
+var orz_week=num_orz_mon+num_orz_tue+num_orz_wedn+" орз, "
+var vetryanka_week=num_vetryanka_mon+num_vetryanka_tue+num_vetryanka_wedn + " ветрянка "
+orz_week+vetryanka_week
