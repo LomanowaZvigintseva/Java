@@ -16,10 +16,10 @@ document.getElementById("G").textContent = this.G;
 document.getElementById("ST").textContent = this.ST;
 }
 }
-/*let Ivanov = new Patient("Иванов","Иван","Иваныч", new Date(1980, 6, 10), "м","Назначено") 
-Ivanov.setById();*/
-let Petrov = new Patient("Петров", "Антон", "Николаевич", new Date(1945, 12, 1), "м","Назначено")
-/*let Sidorov = new Patient("Сидоров", "-", "-", new Date(1976, 5, 2), "м","Исполнено")*/
+let Ivanov = new Patient("Иванов","Иван","Иваныч", new Date(1980, 6, 10), "м","Назначено") 
+Ivanov.setById();
+let Petrov = new Patient("Петров", "Антон", "Николаевич", new Date(1945, 12, 1), "м","Назначено");
 Petrov.setById();
-/*Sidorov.setById();*/
+let Sidorov = new Patient("Сидоров", "Сидор", "Сидорович", new Date(1976, 5, 2), "м","Исполнено");
+Sidorov.setById();
 console.log(Ivanov);
